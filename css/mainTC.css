@@ -1,0 +1,69 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.flexbox-container1 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+}
+.topnav {
+    padding-left: 30%;
+}
+.lefttop{
+    padding-left: 10%;
+}
+
+.flexbox-container2 {
+    width: auto;
+    height: 1000px;   
+}
+.flex-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    font-size: 130px;
+    color: white;
+}
+.main-img{
+    width: auto;
+    height: auto;
+}
+
+.month{
+    border: 1px solid black;
+    background-color: rgb(185, 185, 185);
+    padding-left: 5%;
+    width: 900px;
+    margin-left: 25%;
+    font-size: 25px;
+}
+
+.flex-container3{
+    display: flex;
+    justify-content: center;
+}
+.flex-container4{
+    margin: 5px;
+    padding: 10px;
+}
+
+.button{
+    background-color: orange;
+    border: 1px solid black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 32px;
+    display: block;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    align-items: center;
+    height: 50%;
+    width: 25%
+}
